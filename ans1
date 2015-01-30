@@ -17,7 +17,7 @@ function anagram($str1,$str2){
  }
   
  if(($val == 0) && ($sum1 == $sum2))
-    echo 'yes string is anadrom';
+    return 'yes string is anadrom';
  else
     return "Sorry!! String is not anadrom";
   
